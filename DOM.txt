@@ -1,2 +1,11 @@
 DOM: 문서 객체 모델
 순수 자바스크립트: 특정 라이브러리나 프레임워크를 사용하지 않은 순수의 자바스크립트. 바닐라js라고 부름.
+
+리액트의 생명주기
+constructor()
+static getDerivedStateFromProps()
+render()
+componentDidMount()
+componentwillmount()도 있었지만 사용 안됨.
+componentDidUpdate()->업데이트 된 상황
+componentWillUnMmount()->dom상에서 제거될 때 호출됨.
